@@ -6,22 +6,138 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Austin Antles</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Antles" src="...">
-                </a>
-            </div>
-         </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12"><h1>Austin Antles</h1></div>
+   
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+         <button type="Button" class="navbar-toggle collapsed btn btn-danger" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Antles</a>
+      </div>
+    <div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#linktoabout">About</a></li>
+            <li><a href="#linktoworks">Works</a></li>
+            <li><a href="#linktocontact">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </div>
+  </nav>
+  <div class="container-fluid content">
+    <div class="row top">
+      <div class="col-md-12 head">
+        <h1 class="text-center name">ANTLES DEVELOPMENT</h1>
+        <hr />
+      </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="scrollMore">
+          <p><i class="fa fa-arrow-down"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="row buttons">
+      <div class="col-md-3">
+        <a href="https://www.facebook.com/austin.antles?ref=bookmarks" class="btn btn-lg" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/in/austin-antles-99326b117" class="btn btn-lg" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.freecodecamp.com/almae" class="btn btn-lg" target="_blank"><i class="fa fa-tree"></i> Free Code Camp</a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://www.twitter.com/dessertswans" class="btn btn-lg" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
+      </div>
+     </div>
+    <div class="row middle">
+      <div class="col-md-6 about">
+        <h2><a name="linktoabout"></a>ABOUT ME</h2>
+        <p class="aboutp">I am a 23 year old developer currently living in Spokane, WA. I am in the process of taking my skills to the next level in order to fulfill the growing need for developers. This is the first iteration of my website so I should hopefully have more to see and look at as time goes on. Right now I mostly deal with Front End but I am hoping to refresh myself with technologies such as Node. I have been only doing web development for about a year, but I am loving every second of it so far! </p>
+      </div>
+      <div class="col-md-6 Skills">
+        <h2>SKILLSET</h2>
+        <ul class="list-unstyled skillList">
+          <li class="skills html"><strong>HTML</strong></li>
+          <li class="skills js"><strong>JAVASCRIPT</strong></li>
+          <li class="skills css"><strong>CSS</strong></li>
+          <li class="skills jq"><strong>JQUERY</strong></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row workTitle">
+      <div class="col-md-12">
+        <h2>WORKS</h2>
+      </div>
+      <a name="linktoworks"></a>
+    </div>
+    <div class="row works">
+      <div class="col-md-4">
+        <div class="thumbnail">  
+          <a href="https://codepen.io/almae/full/jqBVER/"><img  src="https://i.imgur.com/ALWErGY.png" alt="A picture of Abe" />
+            <div class="caption"></a>
+            <h3>Abe Lincoln Tribute</h3>
+         </div> 
+       </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">  
+          <a href="https://codepen.io/almae/full/RaVmXJ/"><img  src="https://i.imgur.com/kkZbJM5.png" alt="A picture of a quote generator" />
+            <div class="caption"></a>
+            <h3>Quote Generator</h3>
+            </div>
+         </div> 
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">  
+          <a href="https://austinantles.github.io/wikiQuery/"><img src="https://i.imgur.com/3T3xcRZ.png" alt="A picture of WikiQuery" />
+            <div class="caption"></a>
+            <h3>WikiQuery</h3>
+            </div>
+      </div>
+    </div>
+    <div class="row works">
+        <div class="col-md-6">
+          <div class="thumbnail">  
+            <a href="https://austinantles.github.io/pomodoro/"><img  src="pomodoro.png" alt="Pomodoro clock" />
+              <div class="caption"></a>
+              <h3>Pomodoro Clock</h3>
+           </div> 
+         </div>
+        </div>
+        <div class="col-md-6">
+          <div class="thumbnail">  
+            <a href="https://austinantles.github.io/tictactoe/"><img  src="tictactoe.png" alt="tic-tac-toe" />
+              <div class="caption"></a>
+              <h3>Tic-Tac-Toe</h3>
+              </div>
+           </div> 
+        </div>
+      </div>
+    <div class="row contact">
+      <div class="col-md-offset-2">
+        <h2><a name="linktocontact"></a>Contact:</h2>
+        <ul class="list-unstyled">
+          <li><strong>Name:</strong> <span class="contactInfo">Austin Antles</span></li>
+          <li><strong>Email:</strong><span class="contactInfo"> aantles22@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row footer">
+      <div class="col-md-12">
+        <p>Austin Antles 2017.</p>
+      </div>
+    </div>
+  </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
