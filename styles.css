@@ -148,7 +148,15 @@ a{
   color: #0FDB72;
 }
 
+.thumbnail{
+  background-color: transparent !important;
+  border: none !important;
+  
+}
 
+.caption{
+  color: white !important;
+}
 
 .fa-arrow-down{
   font-size: 50px;
