@@ -122,6 +122,16 @@ a{
   margin-top: 10px;
 }
 
+.java{
+  width: 20%;
+  margin-top: 10px;
+}
+
+.python{
+  width: 35%;
+  margin-top: 10px;
+}
+
 .works{
   padding-top: 10%;
   color: white
