@@ -168,14 +168,13 @@ a{
   color: white !important;
 }
 
-i.fa-arrow-down{
+.fa-arrow-down{
   font-size: 50px;
   padding-bottom: 500px;
   padding-left: 43%;
   color: #0FDB72;
   width: 20%;
   margin: 0 auto;
-  align-content: center;
 }
 
 
